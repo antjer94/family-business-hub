@@ -51,9 +51,9 @@ const SplitHeroSection = () => {
         </div>
       </div>
       
-      {/* Right Side - Company B */}
+      {/* Right Side - Här&där-Doktorn */}
       <a 
-        href="#greenleaf-solutions"
+        href="#hardardoktorn"
         className="group relative flex-1 min-h-[50vh] lg:min-h-screen flex items-center justify-center bg-company-b overflow-hidden transition-all duration-500 hover:flex-[1.1]"
       >
         {/* Pattern overlay */}
@@ -67,13 +67,13 @@ const SplitHeroSection = () => {
         {/* Content */}
         <div className="relative z-10 text-center px-8 py-16 max-w-md">
           <p className="text-primary-foreground/60 text-xs tracking-[0.3em] uppercase mb-4">
-            Est. 1992
+            Medical Staffing Experts
           </p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-primary-foreground mb-4 leading-tight">
-            GreenLeaf<br />Solutions
+            Här&där<br />Doktorn
           </h2>
           <p className="text-primary-foreground/70 mb-8 leading-relaxed">
-            Sustainable futures start here
+            Specialist doctors when you need them most
           </p>
           <div className="inline-flex items-center gap-2 text-accent font-medium group-hover:gap-4 transition-all duration-300">
             Explore
