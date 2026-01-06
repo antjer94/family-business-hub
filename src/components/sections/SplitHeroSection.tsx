@@ -85,15 +85,6 @@ const SplitHeroSection = () => {
         <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-300" />
       </a>
       
-      {/* Family Badge - Top Center */}
-      <div className="absolute top-6 left-1/2 -translate-x-1/2 z-30">
-        <div className="bg-background/95 backdrop-blur-sm px-6 py-3 rounded-full shadow-soft">
-          <p className="font-display text-foreground text-sm md:text-base">
-            Thompson<span className="text-accent">.</span> Family
-          </p>
-        </div>
-      </div>
-      
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 hidden lg:block">
         <div className="flex flex-col items-center gap-2 text-background/60 animate-bounce">
