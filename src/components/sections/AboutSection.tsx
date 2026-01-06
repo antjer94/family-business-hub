@@ -20,19 +20,13 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-                The Thompson family has been building businesses in our community for nearly 
-                four decades. What started as a single construction company founded by our 
-                father, Robert Thompson, has grown into two thriving enterprises.
-              </p>
-              <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-                Today, siblings <strong className="text-foreground">James</strong> and{' '}
-                <strong className="text-foreground">Sarah Thompson</strong> each lead one of our 
-                companies, bringing their unique expertise while staying true to the family values 
-                that got us here.
+                The <strong className="text-foreground">Jerntved family</strong> brings together 
+                a wealth of experience and expertise across diverse industries. Our group represents 
+                a unique blend of knowledge, skills, and perspectives.
               </p>
               <p className="text-lg text-foreground/80 leading-relaxed">
-                We believe in doing business the right way — with honesty, hard work, and a 
-                genuine commitment to our clients and community.
+                Each of our companies operates with a shared commitment: delivering exceptional 
+                results and making a meaningful difference for our clients.
               </p>
             </div>
             
@@ -40,12 +34,17 @@ const AboutSection = () => {
               <div className="aspect-square rounded-2xl bg-secondary p-8 shadow-soft">
                 <div className="h-full rounded-xl border-2 border-dashed border-border flex items-center justify-center">
                   <div className="text-center px-6">
-                    <p className="font-display text-2xl text-foreground mb-2 italic">
-                      "Family first, always."
+                    <p className="font-display text-xl text-foreground mb-4">
+                      Our Companies
                     </p>
-                    <p className="text-muted-foreground text-sm">
-                      — Robert Thompson, Founder
-                    </p>
+                    <div className="space-y-3 text-left">
+                      <p className="text-foreground/80 text-sm">
+                        <strong className="text-company-a">Jerntved Consulting</strong> — IT & Oracle expertise
+                      </p>
+                      <p className="text-foreground/80 text-sm">
+                        <strong className="text-company-b">Här&där-Doktorn</strong> — Medical staffing solutions
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -56,11 +55,10 @@ const AboutSection = () => {
           </div>
           
           {/* Values */}
-          <div className="mt-20 grid sm:grid-cols-3 gap-8">
+          <div className="mt-20 grid sm:grid-cols-2 gap-8">
             {[
-              { title: 'Integrity', desc: 'We do what we say and say what we mean.' },
-              { title: 'Quality', desc: 'Excellence in every project, every time.' },
-              { title: 'Community', desc: 'Giving back to where we call home.' },
+              { title: 'IT Excellence', desc: '40+ years of Oracle and server management expertise.', color: 'company-a' },
+              { title: 'Healthcare Solutions', desc: 'Reliable specialist doctors across all of Sweden.', color: 'company-b' },
             ].map((value, index) => (
               <div key={index} className="text-center p-6 rounded-xl bg-card shadow-soft">
                 <h3 className="font-display text-xl text-foreground mb-2">{value.title}</h3>
