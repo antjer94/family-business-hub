@@ -106,11 +106,11 @@ const CompanyASection = () => {
             </h3>
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12">
               <a 
-                href="tel:+46733614729" 
+                href="tel:+46733514729" 
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               >
                 <Phone className="w-5 h-5 text-accent" />
-                +46 733 614 729
+                +46 733 514 729
               </a>
               <a 
                 href="mailto:erik@jerntved.se" 
