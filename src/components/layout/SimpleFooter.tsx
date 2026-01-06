@@ -19,10 +19,6 @@ const SimpleFooter = () => {
             <a href="#har-dar-doktorn" className="hover:text-background transition-colors">
               Här&där-Doktorn
             </a>
-            <span>•</span>
-            <a href="#about" className="hover:text-background transition-colors">
-              About
-            </a>
           </div>
           <p className="text-background/30 text-xs mt-8">
             © {currentYear} Jerntved Family. All rights reserved.
