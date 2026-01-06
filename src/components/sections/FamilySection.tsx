@@ -10,32 +10,24 @@ const FamilySection = () => {
             <Users className="w-6 h-6" />
           </div>
           <h2 className="font-display text-3xl md:text-4xl text-foreground mb-6">
-            One Family, Two Visions
+            One Family, Multiple Visions
           </h2>
           <div className="w-20 h-1 gradient-accent rounded-full mx-auto mb-10" />
           
           {/* Story */}
           <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-            The Thompson family has been building businesses in our community for nearly 
-            four decades. What started as a single construction company founded by our 
-            father, <strong className="text-foreground">Robert Thompson</strong>, has grown 
-            into two thriving enterprises led by siblings James and Sarah.
+            The <strong className="text-foreground">Jerntved family</strong> brings together 
+            a wealth of experience and expertise across diverse industries. Our group represents 
+            a unique blend of knowledge, skills, and perspectives that enables us to excel in 
+            multiple fields.
           </p>
           
-          <p className="text-lg text-foreground/80 leading-relaxed mb-10">
-            Though our companies serve different industries, we share the same core values: 
-            integrity, quality, and genuine care for our clients and community.
+          <p className="text-lg text-foreground/80 leading-relaxed">
+            Each of our companies operates with a shared commitment: delivering exceptional 
+            results and making a meaningful difference for our clients. We believe in building 
+            lasting relationships through reliability, professionalism, and genuine care for 
+            those we serve.
           </p>
-          
-          {/* Quote */}
-          <div className="bg-secondary rounded-2xl p-8 md:p-10">
-            <p className="font-display text-2xl text-foreground italic mb-3">
-              "Family first, always."
-            </p>
-            <p className="text-muted-foreground text-sm">
-              — Robert Thompson, Founder
-            </p>
-          </div>
         </div>
       </div>
     </section>
