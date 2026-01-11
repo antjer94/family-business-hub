@@ -20,7 +20,16 @@ const SimpleFooter = () => {
               Här&där-Doktorn
             </a>
           </div>
-          <p className="text-background/30 text-xs mt-8">
+          <p className="text-background/50 text-sm mt-8">
+            IT and admin manager: Anton Jerntved
+          </p>
+          <a 
+            href="mailto:anton@jerntved.se" 
+            className="text-background/50 text-sm hover:text-background transition-colors"
+          >
+            anton@jerntved.se
+          </a>
+          <p className="text-background/30 text-xs mt-6">
             © {currentYear} Jerntved Family. All rights reserved.
           </p>
         </div>
