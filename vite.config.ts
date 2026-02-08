@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-impoIt looksrt react from "@vitejs/plugin-react-swc";
+import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
